@@ -1,4 +1,5 @@
 Summary:	Enhanced Machine Controller
+Summary(pl):	Enhanced Machine Controller - rozszerzone sterowanie maszynami
 Name:		emc
 Version:	2.0.5
 Release:	1
@@ -34,6 +35,28 @@ non-Cartesian motion systems is provided via kinematics. This includes
 hexapods (Stewart platforms and similar concepts) and systems with
 rotary joints to provide motion.
 
+%description -l pl
+EMC (Enhanced Machine Control - rozszerzone sterowanie maszynami) to
+programowy system do komputerowego sterowania narzêdziami takimi jak
+frezarki. Udostêpnia:
+- interfejs u¿ytkownika (w³a¶ciwie kilka interfejsów do wyboru)
+- interpreter "G-kodu" (jêzyka programowania maszyn RS-274)
+- wspó³pracuje z w³a¶ciwymi interfejsami elektronicznymi steruj±cymi
+silnikami obrabiarki.
+
+Udostêpnia funkcje "komputerowe" niezbêdne do w³a¶ciwego dzia³ania
+elektroniki maszyn. Nie udostêpnia funkcji projektowania (CAD -
+Computer Aided Design) ani generowania G-kodu z projektu (CAM -
+Computer Aided Manufacturing). Potrafi sterowaæ maksymalnie 6 osiami i
+obs³uguje ró¿norodne interfejsy. Sterowanie ruchem mo¿e operowaæ na
+prawdziwych serwomechanizmach (zwykle analogowych) z pêtl± zwrotn±
+zamkniêt± przez oprogramowanie EMC na komputerze lub z otwart± pêtl± z
+"serwomechanizmami krokowymi" lub silnikami krokowymi. Planowanie
+ruchów obejmuje kompensacjê promienia freza, offsety d³ugo¶ci
+narzêdzia i sta³e sterowanie prêdko¶ci±. Obs³uga niekartezjañskich
+uk³adów sterowania jest zapewniona poprzez kinematykê. Obejmuje to
+heksapody (platformy Stewarta i podobne idee) oraz systemy z
+po³±czeniami obrotowymi.
 
 %prep
 %setup -q -n %{name}2
