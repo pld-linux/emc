@@ -1,5 +1,5 @@
 Summary:	Enhanced Machine Controller
-Summary(pl):	Enhanced Machine Controller - rozszerzone sterowanie maszynami
+Summary(pl.UTF-8):   Enhanced Machine Controller - rozszerzone sterowanie maszynami
 Name:		emc
 Version:	2.0.5
 Release:	1
@@ -35,28 +35,28 @@ non-Cartesian motion systems is provided via kinematics. This includes
 hexapods (Stewart platforms and similar concepts) and systems with
 rotary joints to provide motion.
 
-%description -l pl
+%description -l pl.UTF-8
 EMC (Enhanced Machine Control - rozszerzone sterowanie maszynami) to
-programowy system do komputerowego sterowania narzêdziami takimi jak
-frezarki. Udostêpnia:
-- interfejs u¿ytkownika (w³a¶ciwie kilka interfejsów do wyboru)
-- interpreter "G-kodu" (jêzyka programowania maszyn RS-274)
-- wspó³pracuje z w³a¶ciwymi interfejsami elektronicznymi steruj±cymi
+programowy system do komputerowego sterowania narzÄ™dziami takimi jak
+frezarki. UdostÄ™pnia:
+- interfejs uÅ¼ytkownika (wÅ‚aÅ›ciwie kilka interfejsÃ³w do wyboru)
+- interpreter "G-kodu" (jÄ™zyka programowania maszyn RS-274)
+- wspÃ³Å‚pracuje z wÅ‚aÅ›ciwymi interfejsami elektronicznymi sterujÄ…cymi
 silnikami obrabiarki.
 
-Udostêpnia funkcje "komputerowe" niezbêdne do w³a¶ciwego dzia³ania
-elektroniki maszyn. Nie udostêpnia funkcji projektowania (CAD -
+UdostÄ™pnia funkcje "komputerowe" niezbÄ™dne do wÅ‚aÅ›ciwego dziaÅ‚ania
+elektroniki maszyn. Nie udostÄ™pnia funkcji projektowania (CAD -
 Computer Aided Design) ani generowania G-kodu z projektu (CAM -
-Computer Aided Manufacturing). Potrafi sterowaæ maksymalnie 6 osiami i
-obs³uguje ró¿norodne interfejsy. Sterowanie ruchem mo¿e operowaæ na
-prawdziwych serwomechanizmach (zwykle analogowych) z pêtl± zwrotn±
-zamkniêt± przez oprogramowanie EMC na komputerze lub z otwart± pêtl± z
+Computer Aided Manufacturing). Potrafi sterowaÄ‡ maksymalnie 6 osiami i
+obsÅ‚uguje rÃ³Å¼norodne interfejsy. Sterowanie ruchem moÅ¼e operowaÄ‡ na
+prawdziwych serwomechanizmach (zwykle analogowych) z pÄ™tlÄ… zwrotnÄ…
+zamkniÄ™tÄ… przez oprogramowanie EMC na komputerze lub z otwartÄ… pÄ™tlÄ… z
 "serwomechanizmami krokowymi" lub silnikami krokowymi. Planowanie
-ruchów obejmuje kompensacjê promienia freza, offsety d³ugo¶ci
-narzêdzia i sta³e sterowanie prêdko¶ci±. Obs³uga niekartezjañskich
-uk³adów sterowania jest zapewniona poprzez kinematykê. Obejmuje to
+ruchÃ³w obejmuje kompensacjÄ™ promienia freza, offsety dÅ‚ugoÅ›ci
+narzÄ™dzia i staÅ‚e sterowanie prÄ™dkoÅ›ciÄ…. ObsÅ‚uga niekartezjaÅ„skich
+ukÅ‚adÃ³w sterowania jest zapewniona poprzez kinematykÄ™. Obejmuje to
 heksapody (platformy Stewarta i podobne idee) oraz systemy z
-po³±czeniami obrotowymi.
+poÅ‚Ä…czeniami obrotowymi.
 
 %prep
 %setup -q -n %{name}2
