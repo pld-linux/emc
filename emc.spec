@@ -1,5 +1,5 @@
 Summary:	Enhanced Machine Controller
-Summary(pl.UTF-8):   Enhanced Machine Controller - rozszerzone sterowanie maszynami
+Summary(pl.UTF-8):	Enhanced Machine Controller - rozszerzone sterowanie maszynami
 Name:		emc
 Version:	2.0.5
 Release:	1
